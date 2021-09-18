@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 import { MDXProvider } from '@mdx-js/react';
-import { ThemeProvider } from '@material-ui/styles';
-import { createMuiTheme } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 import CodeBlock from './CodeBlock';
 
@@ -21,7 +20,7 @@ const components = {
 };
 
 const rootContext = {
-  theme: createMuiTheme(),
+  theme: createTheme(),
   components,
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import NProgress from 'nprogress';
-import { withStyles } from '@material-ui/core/styles';
-import NoSsr from '@material-ui/core/NoSsr';
+import { withStyles } from '@mui/styles';
+import NoSsr from '@mui/material/NoSsr';
 
 NProgress.configure({
   template: `

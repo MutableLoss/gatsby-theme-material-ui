@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby-theme-material-ui';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+import { makeStyles } from '@mui/styles';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 function BuildWith() {
   return (

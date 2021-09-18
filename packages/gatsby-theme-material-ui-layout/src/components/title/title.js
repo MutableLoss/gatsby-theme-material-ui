@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'gatsby-theme-material-ui';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 
 import useSiteMetadata from '../../hooks/use-site-metadata';
 

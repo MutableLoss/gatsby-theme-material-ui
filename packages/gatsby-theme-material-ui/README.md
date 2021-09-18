@@ -7,10 +7,10 @@
 
 ```sh
 // with npm
-npm install gatsby-theme-material-ui @material-ui/core
+npm install gatsby-theme-material-ui @mui/material
 
 // with yarn
-yarn add gatsby-theme-material-ui @material-ui/core
+yarn add gatsby-theme-material-ui @mui/material
 ```
 
 ## Theme vs. Plugin
@@ -69,9 +69,9 @@ Edit `theme.js`
 ```javascript
 // src/gatsby-theme-material-ui-top-layout/theme.js
 
-import { createMuiTheme } from "@material-ui/core";
+import { createTheme } from "@mui/material/styles";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: [
         'Montserrat',
@@ -118,9 +118,9 @@ For more options, have a look at the plugin [readme](https://github.com/hupe1980
 Create & Edit src/gatsby-theme-material-ui-top-layout/theme.js
 
 ```javascript
-import { createMuiTheme } from "@material-ui/core";
+import { createTheme } from "@mui/material/styles";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   //   palette: {
   //     type: 'dark',
   //   },
@@ -133,7 +133,7 @@ export default theme;
 
 ```javascript
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 //import { Link } from "gatsby"
 import { Link } from "gatsby-theme-material-ui";
 

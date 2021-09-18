@@ -1,9 +1,9 @@
 import React from 'react';
-import MuiLink, { LinkProps } from '@material-ui/core/Link';
+import MuiLink, { LinkProps } from '@mui/material/Link';
 
 import { GatsbyLink } from './glink';
 
-export const Link = React.forwardRef<
+export const Link: any = React.forwardRef<
   HTMLAnchorElement,
   LinkProps & { to?: string }
 >((props, ref) => {
