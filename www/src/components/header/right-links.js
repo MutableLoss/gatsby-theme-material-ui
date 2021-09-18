@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import { IconButton } from 'gatsby-theme-material-ui';
 
 import GitHubIcon from '../../svg-icons/github-icon';

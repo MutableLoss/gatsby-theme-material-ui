@@ -1,10 +1,13 @@
 {
   "name": "www",
-  "version": "1.0.27",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "4.11.3",
-    "@material-ui/icons": "4.11.2",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
+    "@mui/styles": "^5.0.0",
     "classnames": "^2.3.1",
     "gatsby": "3.2.1",
     "gatsby-plugin-google-analytics": "^3.2.0",
@@ -12,8 +15,8 @@
     "gatsby-plugin-netlify": "^3.2.0",
     "gatsby-plugin-offline": "^4.2.0",
     "gatsby-plugin-performance-metrics": "^1.0.1",
-    "gatsby-theme-material-ui": "^2.0.1",
-    "gatsby-theme-material-ui-layout": "^2.0.1",
+    "gatsby-theme-material-ui": "^3.0.0",
+    "gatsby-theme-material-ui-layout": "^3.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
